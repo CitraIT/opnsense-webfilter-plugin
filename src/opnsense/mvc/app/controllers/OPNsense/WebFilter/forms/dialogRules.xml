@@ -33,9 +33,9 @@
     </field>
     <field>
         <id>rule.adgroup</id>
-        <label>AD Group</label>
-        <type>dropdown</type>
-        <help><![CDATA[Upgrade to the <b>Premium version</b> to unlock this feature. <a href="https://cloudfence.com.br/sign-up/" target="_blank">Sign Up!</a>]]></help>
+        <label>LDAP Group</label>
+        <type>text</type>
+        <help><![CDATA[example: ldapusersearch  ldap://gc.domain.com:3268/DC=domain,DC=com?sAMAccountName?sub?(&(sAMAccountName=%s)(memberOf=CN=Internet%20Users%2cOU=OU2%2cOU=OU1%2cDC=domain%2cDC=com))]></help>
     </field>
     <field>
         <id>rule.aduser</id>
