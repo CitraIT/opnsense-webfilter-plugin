@@ -82,12 +82,9 @@
                     <Mask>/^[a-zA-Z0-9]{1,245}\.?[a-zA-z0-9]{1,10}$/</Mask>
                     <ValidationMessage>AD Groups index not found!</ValidationMessage>
                 </groupindex>
-                <adgroup type="OptionField">
+                <adgroup type="TextField">
                     <Required>N</Required>
                     <default>locked</default>
-                    <OptionValues>
-                        <locked>Upgrade to the Premium version to unlock this feature.</locked>
-                    </OptionValues>
                 </adgroup>
                 <aduser type="CSVListField">
                     <Required>N</Required>
