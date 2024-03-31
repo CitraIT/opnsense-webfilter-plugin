@@ -8,6 +8,18 @@
                 <default>0</default>
                 <Required>Y</Required>
             </enabled>
+            <ldapbinddn type="TextField">
+                <default></default>
+                <Required>N</Required>
+            </ldapbinddn>
+            <ldapbindpass type="TextField">
+                <default></default>
+                <Required>N</Required>
+            </ldapbindpass>
+            <ldapcachetime type="IntegerField">
+                <default>300</default>
+                <Required>Y</Required>
+            </ldapcachetime>
             <sguardprocs type="IntegerField">
                 <default>5</default>
                 <MinimumValue>5</MinimumValue>
