@@ -1,4 +1,4 @@
-<form>
+        <form>
     <tab id="webfilter-general" description="Settings">
         <subtab id="webfilter-general-settings" description="General">
             <field>
@@ -6,6 +6,24 @@
                 <label>Enable Web Filter</label>
                 <type>checkbox</type>
                 <help>Enable WebFilter.</help>
+            </field>
+            <field>
+                <id>webfilter.general.ldapbinddn</id>
+                <label>LDAP Bind DN</label>
+                <type>text</type>
+                <help>user DistringuishedName to connect to ldap server.</help>
+            </field>
+            <field>
+                <id>webfilter.general.ldapbindpass</id>
+                <label>LDAP Bind Password</label>
+                <type>password</type>
+                <help>password for the ldap binding user above. not not use special characters like @.</help>
+            </field>
+            <field>
+                <id>webfilter.general.ldapcachetime</id>
+                <label>LDAP Result Cached time</label>
+                <type>text</type>
+                <help>How much time to cache ldap results</help>
             </field>
             <field>
                 <id>webfilter.general.sguardprocs</id>
@@ -27,7 +45,7 @@
                 <style>tokenize</style>
                 <nbDropdownElements>300</nbDropdownElements>
                 <help><![CDATA[Select categories to enable in rules.]]></help>
-            </field>        
+            </field>
         </subtab>
     </tab>
     <activetab>webfilter-general-settings</activetab>
