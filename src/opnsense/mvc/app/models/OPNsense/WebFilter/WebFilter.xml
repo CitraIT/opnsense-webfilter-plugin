@@ -44,6 +44,10 @@
                 <SelectAll>Y</SelectAll>
                 <Multiple>Y</Multiple>
             </categories>
+            <urlerror type="TextField">
+                <default></default>
+                <Required>N</Required>
+            </urlerror>
         </general>
         <rules>
             <rule type="ArrayField">
