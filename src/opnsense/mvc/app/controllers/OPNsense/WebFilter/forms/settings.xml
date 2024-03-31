@@ -50,7 +50,7 @@
                 <id>webfilter.general.urlerror</id>
                 <label>Default Redirect URL</label>
                 <type>text</type>
-                <help>example: 302:https://192.168.1.1/sgerror.php?url=403%20&a=%a&n=%n&i=%i&s=%s&t=%t&u=%u</help>
+                <help>example: <![CDATA[302:https://192.168.1.1/sgerror.php?url=403%20&a=%a&n=%n&i=%i&s=%s&t=%t&u=%u]]></help>
             </field>
         </subtab>
     </tab>
